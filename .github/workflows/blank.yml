@@ -28,5 +28,6 @@ jobs:
         uses: matt-ball/newman-action@v1.0.4
         with:
          collection: https://www.getpostman.com/collections/dd0159eddc42488fe4c8
+         envVar: '[{ "key": "token", "value": "${{secrets.TOKEN}}" }]
 
      
